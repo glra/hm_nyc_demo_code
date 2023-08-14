@@ -1,0 +1,47 @@
+.page--artist .cols {
+  display: inline-block;
+  xxxborder: 1px solid red;
+  height: 1400px;
+  vertical-align: top;
+}
+
+.page--artist .col1 {
+  width: 450px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.page--artist .artist-name {
+  font-size: 3.4rem;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.page--artist .artist-image {
+  margin: 96px 0 30px 0;
+
+  width: 420px;
+  height: 420px;
+  border: 2px solid var(--text-color);
+  xxxborder-radius: 16px 16px 0 0;
+}
+
+.page--artist .bio {
+  margin: 0 0 10px 0;
+}
+
+.page--artist .socialmedia {
+  margin: 20px 0 40px 0;
+}
+
+.page--artist h5 {
+  margin: 20px 0 10px 0;
+}
+
+.page--artist .club {
+  margin: 0 0 10px 0;
+}
+
+.page--artist .youtube {
+  margin: 0 0 30px 0;
+}

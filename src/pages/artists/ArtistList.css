@@ -1,0 +1,50 @@
+.artists li {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+.artists li div {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+}
+
+.artists li:nth-child(even) {
+  background-color: rgba(var(--artist-color), 0.2);
+}
+
+.artists .artist-name a {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  display: block;
+  text-transform: uppercase;
+  xxcolor: rgba(var(--artist-color), 1);
+}
+
+.artists .genre {
+  color: rgba(var(--artist-color), 0.7);
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 0 0 6px 0;
+}
+
+.artists p {
+  margin: 0 0 8px 0;
+}
+
+.artists .filter {
+  margin: 15px 0 0 0;
+  padding: 20px;
+}
+
+.artists .spotify {
+  padding: 0 0 0 30px;
+}
+
+.artists input[type="checkbox"] {
+  margin: 0 20px 0 0;
+}
+
+.artists .social-media {
+  margin: 10px 0 0 0;
+}

@@ -1,0 +1,125 @@
+/* Preview Global Styles */
+
+.preview {
+  vertical-align: top;
+  text-align: left;
+  border: 5px solid var(--text-color);
+  border-radius: 20px;
+  display: inline-block;
+  color: var(--text-color);
+  width: 440px;
+  height: 600px;
+  margin: 0 20px 20px 0;
+  padding: 15px;
+}
+
+.spotlight {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.preview-artist .spotlight {
+  color: rgba(var(--artist-color), 1);
+}
+
+.preview-event-featured .spotlight {
+  color: rgba(var(--featured-event-color), 1);
+}
+
+.preview-venue .spotlight {
+  color: rgba(var(--venue-color), 1);
+}
+
+/* End Preview Global Styles */
+
+/* Preview Events */
+
+.preview-events {
+  background-color: rgba(var(--events-color), 0.05);
+  border-color: rgba(var(--events-color), 1);
+  background-image: url("../../assets/images/nightclub1.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0px -80px;
+}
+
+.preview-events h4 {
+  margin-top: 240px;
+  margin-bottom: 16px;
+}
+
+.preview-events article.event-date p {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 8px 0 10px 0;
+}
+
+/* end Preview Events */
+
+/* Preview Artist */
+
+.preview-artist,
+.preview-artist2 {
+  background-image: url("../..//assets/images/artists/640x640/momaready.jpeg");
+  background-color: rgba(var(--artist-color), 0.05);
+  border-color: rgba(var(--artist-color), 1);
+  text-align: left;
+}
+
+.preview-artist2 {
+  background-image: url("../..//assets/images/artists/640x640/rissagarcia.jpeg");
+}
+
+.preview-artist:hover {
+  background-image: none;
+}
+
+.preview-artist:hover .spotlight,
+.preview-artist:hover h3,
+.preview-artist:hover button,
+.preview-artist:hover .description {
+  display: block;
+}
+
+.preview-artist .spotlight,
+.preview-artist h3,
+.preview-artist button,
+.preview-artist .description {
+  display: none;
+}
+
+/* End Preview Artist */
+
+/* Preview Featured Event */
+
+.preview-event-featured {
+  background-color: rgba(var(--featured-event-color), 0.1);
+  border-color: rgba(var(--featured-event-color), 1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0px -80px;
+}
+
+/* End Preview Featured Event */
+
+/* Preview Venue */
+
+.preview-venue {
+  background-color: rgba(var(--venue-color), 0.05);
+  border-color: rgba(var(--venue-color), 1);
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../..//assets/images/venues/shinydiscoballs.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px -440px;
+}
+
+.preview-venue .spotlight {
+  margin-top: 270px;
+}
+
+/* End Preview Venue */

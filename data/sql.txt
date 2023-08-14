@@ -1,0 +1,3 @@
+Create artist to venue view
+
+create view a_to_v_view as select v.name, v.url_name as venue_url_name, a.url_name, a.first_name, a.last_name, a.url_name as artist_url_name, av.date, av.event_name, av.event_info from venue v INNER JOIN artist_to_venue av on v.id = av.venue_id INNER JOIN artist a on a.id= av.artist_id order by av.date 

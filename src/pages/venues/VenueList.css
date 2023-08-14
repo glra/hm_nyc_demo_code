@@ -1,0 +1,55 @@
+.venues li {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+.venues li div {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.venues li:nth-child(even) {
+  background-color: rgba(var(--venue-color), 0.2);
+}
+
+.venues .venue-name a {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  display: block;
+  text-transform: uppercase;
+  xxcolor: rgba(var(--venue-color), 1);
+}
+
+.venues .genre {
+  color: rgba(var(--venue-color), 0.7);
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 0 0 6px 0;
+}
+
+.venues p {
+  margin: 0 0 8px 0;
+}
+
+.venues .filter {
+  margin: 15px 0 0 0;
+  padding: 20px;
+}
+
+.venues .spotify {
+  padding: 0 0 0 30px;
+}
+
+.venues input[type="checkbox"] {
+  margin: 0 20px 0 0;
+}
+
+.venues .social-media {
+  margin: 10px 0 0 0;
+}
+
+.venues p {
+  margin: 0 0 2px 0;
+}

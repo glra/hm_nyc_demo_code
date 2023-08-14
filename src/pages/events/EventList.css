@@ -1,0 +1,28 @@
+.events .clubcalendar {
+  padding: 20px;
+}
+
+.events .clubcalendar .date {
+  font-size: 1.8rem;
+  margin: 20px 0 0 0;
+  font-weight: bold;
+}
+
+.events .clubcalendar .club {
+  font-size: 1.3rem;
+  margin: 8px 0 6px 30px;
+  font-weight: bold;
+}
+
+.events .clubcalendar .club a {
+  color: rgba(var(--text-color), 0.8);
+}
+
+.events .clubcalendar .artist {
+  font-size: 1.1rem;
+  margin: 0 0 6px 60px;
+}
+
+.events .clubcalendar .artist a {
+  color: rgba(var(--text-color), 0.7);
+}

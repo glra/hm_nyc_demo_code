@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Condiment&display=swap");
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+:root {
+  --events-color: 247, 82, 189;
+  --artist-color: 255, 143, 28;
+  --featured-event-color: 255, 160, 150;
+  --venue-color: 171, 121, 230;
+  --text-color: #212426;
+}
+
+.App {
+  text-align: center;
+}
+
+.App__header {
+  background-color: #fff;
+  text-align: center;
+}
+
+/* headings */
+/* Main Title */
+.App h1 {
+  color: var(--text-color);
+  display: inline-block;
+  font-family: inherit;
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin: 0 0 6px 0;
+  padding: 20px 0 0px 0;
+  width: 1000px;
+}
+
+.App h3 {
+  font-size: 3.4rem;
+  font-weight: bold;
+  margin: 0 0 0 0;
+}
+/* Section Header */
+.App h4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0 0 0 0;
+}
+
+.App h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0 0 0;
+}
+
+/* End Headings */
+
+.App__content {
+  color: var(--text-color);
+  margin-top: 0;
+  margin: 0 auto;
+  min-height: 100vh;
+  text-align: center;
+  width: 1000px;
+}
+
+.App__content a,
+.App__content a {
+  color: var(--text-color);
+}
+
+/* Page Navigation */
+nav {
+  /* WILLDO: use csscomb to alphabetize properties */
+  background: #ffffff;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0 auto 20px auto;
+  width: 880px;
+}
+
+nav a {
+  border-radius: 6px;
+  display: inline-block;
+  margin: 0 20px 0 0;
+  padding: 3px 6px 3px 6px;
+  text-decoration: none;
+
+  color: var(--text-color);
+}
+
+nav a:visited {
+  color: var(--text-color);
+}
+
+nav a.active:visited,
+nav a.active {
+  color: #fff;
+}
+
+nav .active {
+  background: var(--text-color);
+  xxxborder: 2px solid red;
+}
+
+nav .events {
+  border-color: rgba(var(--events-color), 1);
+}
+
+nav .artists {
+  border-color: rgba(var(--artist-color), 1);
+}
+
+nav .venues {
+  border-color: rgba(var(--venue-color), 1);
+}
+
+/* end Page Navigation */
+
+/* Common UI Components */
+
+.sm_icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+
+/* End Common UI Components */
+
+/* Common PAge Styles */
+.page {
+  border-color: rgba(0 0 0, 1);
+  border-radius: 20px;
+  border: 2px solid var(--text-color);
+  text-align: left;
+  width: 1000px;
+}
+
+.page--events {
+  border-color: rgba(var(--events-color), 1);
+  background-color: rgba(var(--events-color), 0.05);
+}
+
+.page--venue {
+  border-color: rgba(var(--venue-color), 1);
+  background-color: rgba(var(--venue-color), 0.05);
+}
+
+.page--artist {
+  border-color: rgba(var(--artist-color), 1);
+  background-color: rgba(var(--artist-color), 0.05);
+}
+
+/* End Common Page Styles */

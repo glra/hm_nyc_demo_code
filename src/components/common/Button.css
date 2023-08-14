@@ -1,0 +1,55 @@
+.button {
+  border: 2px solid var(--text-color);
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 25px 0 0 0;
+  xxxbox-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.5);
+}
+
+.button--event {
+  background-color: rgba(var(--events-color), 0.8);
+  border-color: rgba(var(--events-color), 0.6);
+  xxxbackground-image: linear-gradient(
+    rgba(255, 255, 255, 0.6),
+    rgba(var(--events-color), 1)
+  );
+}
+
+.button--artist,
+.button--artists-schedule {
+  background-color: rgba(var(--artist-color), 0.8);
+  border-color: rgba(var(--artist-color), 0.6);
+  xxxbackground-image: linear-gradient(
+    rgba(255, 255, 255, 0.6),
+    rgba(var(--artist-color), 1)
+  );
+}
+
+.button--artists-schedule {
+  margin: 4px 0 0 0;
+  font-size: 0.9rem;
+  border-color: rgba(var(--artist-color), 0.1);
+  background-color: rgba(var(--artist-color), 0.1);
+  color: #000000;
+}
+
+.button--featured-event {
+  background-color: rgba(var(--featured-event-color), 0.8);
+  border-color: rgba(var(--featured-event-color), 0.6);
+  xxxbackground-image: linear-gradient(
+    rgba(255, 255, 255, 0.6),
+    rgba(var(--featured-event-color), 1)
+  );
+}
+
+.button--venue {
+  background-color: rgba(var(--venue-color), 0.8);
+  border-color: rgba(var(--venue-color), 0.6);
+  xxxbackground-image: linear-gradient(
+    rgba(255, 255, 255, 0.6),
+    rgba(var(--venue-color), 1)
+  );
+}
